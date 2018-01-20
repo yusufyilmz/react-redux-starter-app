@@ -10,12 +10,10 @@ You can find the most recent version of this guide [here](https://github.com/fac
 
 ## Table of Contents
 
-- [Getting Started](# Getting Started)
 - [Installing](#Installing)
 - [Start](#Start)
 - [Test](#Test)
 - [Deployment](#Deployment)
-- [Code Overview](#Code Overview)
 - [Dependencies](#Dependencies)
 - [Features](#Features)
 - [TODO](#TODO)
