@@ -26,7 +26,7 @@ You can find the most recent version of this guide [here](https://github.com/fac
 
 Install the required packages with that command at project directory:
 
-    npm install 
+### `npm install`
 
 ## Start:
 
@@ -40,7 +40,7 @@ Runs the app in development mode. Open http://localhost:3000 to view it in the b
 
 There are several test cases for components and reducers. To run test cases, run that command at project directory:
 
-    npm test 
+### `npm test`
 
 **Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
@@ -48,7 +48,7 @@ There are several test cases for components and reducers. To run test cases, run
 
 To prepare a deployment of project, run that command at project directory:
 
-    npm run build 
+### `npm run build`
 
 # Code Overview
 
