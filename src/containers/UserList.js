@@ -28,7 +28,7 @@ UserList.propTypes = {
 
 
 const mapStateToProps = state => ({
-  users: state.user.users
+  users: state.user.items
 })
 
 export default connect(mapStateToProps, actions)(UserList)

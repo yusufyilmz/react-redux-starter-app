@@ -10,9 +10,9 @@ export const fetchUsers = (id) => (dispatch, getState) => {
 };
 
 
-const fetchUserFrom = users => ({
+const fetchUserFrom = user => ({
     type: actionTypes.FETCH_USERS,
-    users
+    user
 })
 
 

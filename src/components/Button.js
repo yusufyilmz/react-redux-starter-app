@@ -5,7 +5,8 @@ import { removeProduct } from '../actions/index';
 
 const Button = ({ onClick, label, id, className, iconClassName }) => {
 
-    return <button id={id} type="button"
+    return <button id={id}
+        type="button"
         className={className}
         onClick={() => onClick()}>
         <i className={iconClassName}></i>

@@ -1,12 +1,12 @@
 import * as actionTypes from 'constants/actionTypes';
 
 const initialState = {
-    users: [],
+    items: [],
 }
 export default function (state = initialState, action) {
     switch (action.type) {
         case actionTypes.FETCH_USERS:
-            return { ...state, users: action.users };
+            return { ...state, items: action.user };
     }
 
     return state;
