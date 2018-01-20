@@ -10,7 +10,7 @@ class UserList extends Component {
   }
 
   renderUser(user) {
-    return <User key= {user.name} name={user.name} company={user.company} website={user.website} />;
+    return <User key={user.name} name={user.name} company={user.company} website={user.website} />;
   }
 
   render() {
